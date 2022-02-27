@@ -1,0 +1,18 @@
+Crear proyecto:
+npm init -y
+
+Instalar modulos:
+npm i express express-handlebars mongoose morgan
+
+otros modulos:
+npm i -D @babel/core @babel/cli @babel/node @babel/preset-env nodemon
+
+ejecutar servidor:
+npx babel-node src/index.js
+
+otro mudulo para configurar variables de entorno:
+npm i dotenv
+
+para subir a producción instalar otro modulo
+pagina = https://babeljs.io/docs/en/babel-plugin-transform-runtime
+npm install --save-dev @babel/plugin-transform-runtime
